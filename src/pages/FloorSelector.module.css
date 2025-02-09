@@ -1,0 +1,38 @@
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #3498db79;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+  }
+  
+  .depto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .resident{
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #3fc23379;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+  }
